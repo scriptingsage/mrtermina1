@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webnginx
+spec:
+  containers:
+    - name: redis
+      image: redis
+      volumeMounts:
+        - name: redis-vol
+          mountPath: /data/redis
+  volumes:
+    - name: redis-vol
+      emptyDir: {}

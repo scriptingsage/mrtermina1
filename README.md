@@ -1,1 +1,1 @@
-Hi , MrTerminal here. You will all my video resources/code in this repo. Feel free to contribute.
+Hi , MrTerminal here. You will find all my video resources/code in this repo.
